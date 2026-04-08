@@ -4,12 +4,12 @@
 
 @font-face {
   font-family: 'Borges';
-  src: url('/fonts/borges.woff2') format('woff2');
+  src: url('../public/fonts/borges.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'Necto Mono';
-  src: url('/fonts/necto-mono.woff2') format('woff2');
+  src: url('../public/fonts/necto-mono.woff2') format('woff2');
 }
 
 @theme {
