@@ -16,7 +16,7 @@ import { RouterLink } from '@angular/router';
     ProseHeading,
     ProseSection,
     ProseSubheading,
-    RouterLink,
+    RouterLink
   ],
   templateUrl: './arthur.html',
 })

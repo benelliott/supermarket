@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnDestroy } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { MatIcon } from '@angular/material/icon';
 
@@ -7,7 +7,7 @@ import { MatIcon } from '@angular/material/icon';
   imports: [RouterLink, MatIcon],
   templateUrl: './home.html',
 })
-export class Home {
+export class Home implements OnDestroy {
   protected readonly links = [
     {
       name: 'Perspective 1: Bella',
@@ -22,4 +22,12 @@ export class Home {
       route: '/daria',
     },
   ];
+
+  constructor() {
+    document.body.classList.add('bg-black');
+  }
+
+  ngOnDestroy() {
+    document.body.classList.remove('bg-black');
+  }
 }

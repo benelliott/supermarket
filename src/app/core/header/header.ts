@@ -6,7 +6,7 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
   imports: [RouterLink, RouterLinkActive],
   templateUrl: './header.html',
   host: {
-    class: 'flex flex-col gap-3 font-mono lg:py-4',
+    class: 'flex flex-col gap-6 font-mono lg:py-4',
   },
 })
 export class Header {
