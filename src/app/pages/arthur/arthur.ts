@@ -6,6 +6,7 @@ import { ProseHeading } from '../../core/prose-heading/prose-heading';
 import { ProseSection } from '../../core/prose-section/prose-section';
 import { ProseSubheading } from '../../core/prose-subheading/prose-subheading';
 import { RouterLink } from '@angular/router';
+import { Image } from '../../core/image/image';
 
 @Component({
   selector: 'app-arthur',
@@ -16,7 +17,8 @@ import { RouterLink } from '@angular/router';
     ProseHeading,
     ProseSection,
     ProseSubheading,
-    RouterLink
+    RouterLink,
+    Image,
   ],
   templateUrl: './arthur.html',
 })
