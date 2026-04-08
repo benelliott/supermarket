@@ -1,0 +1,18 @@
+<main class="bg-black text-white w-full h-full flex items-center justify-center font-mono">
+  <section class="flex flex-col items-center gap-6 p-4 lg:p-8">
+    <h1 class="font-[Borges] text-center text-4xl md:text-6xl lg:text-8xl break-all max-w-6xl">The post-human supermarket</h1>
+    <h1 class="lg:text-lg xl:text-xl mb-4 text-center">(The post-human supermarket)</h1>
+    <nav>
+      <ul class="space-y-2">
+        @for (link of links; track link.route) {
+          <li>
+            <a [routerLink]="link.route" class="hover:text-yellow-200 hover:underline hover:underline-offset-6">
+              {{link.name}}
+              <mat-icon inline class="align-bottom">arrow_forward</mat-icon>
+            </a>
+          </li>
+        }
+      </ul>
+    </nav>
+  </section>
+</main>

@@ -1,0 +1,14 @@
+<a class="group block relative" routerLink="/home">
+  <span class="inline-block md:text-2xl font-[Borges] group-hover:opacity-0">The post-human supermarket</span>
+  <h1 class="text-xl md:text-2xl absolute top-0 left-0 opacity-0 group-hover:opacity-100">The post-human supermarket</h1>
+</a>
+<nav class="hidden md:block">
+  <ul class="flex justify-between text-sm">
+    @for (link of links; track link.route) {
+      <li>
+        <a [routerLink]="link.route" class="underline-offset-6 hover:underline" routerLinkActive="text-yellow-200 underline">{{link.name}}</a>
+      </li>
+    }
+  </ul>
+</nav>
+

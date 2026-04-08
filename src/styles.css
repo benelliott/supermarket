@@ -1,3 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import 'tailwindcss';
+
+@font-face {
+  font-family: 'Borges';
+  src: url('/fonts/borges.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Necto Mono';
+  src: url('/fonts/necto-mono.woff2') format('woff2');
+}
+
+@theme {
+  --font-mono: 'Necto Mono', monospace;
+}
