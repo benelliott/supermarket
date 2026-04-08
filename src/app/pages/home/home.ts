@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { RouterLink, RouterLinkActive } from '@angular/router';
+import { RouterLink } from '@angular/router';
 import { MatIcon } from '@angular/material/icon';
 
 @Component({
   selector: 'app-home',
-  imports: [RouterLink, MatIcon, RouterLinkActive],
+  imports: [RouterLink, MatIcon],
   templateUrl: './home.html',
 })
 export class Home {
