@@ -6,7 +6,7 @@ import { Application } from '@splinetool/runtime';
   imports: [],
   templateUrl: './oj-render.html',
   host: {
-    class: 'block w-full aspect-square',
+    class: 'block w-full aspect-[7/12] md:aspect-square',
   }
 })
 export class OjRender {

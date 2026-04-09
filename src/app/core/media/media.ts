@@ -6,7 +6,8 @@ import { booleanAttribute, Component, input } from '@angular/core';
   templateUrl: './media.html',
   host: {
     class: 'block bg-black text-white',
-    '[class.-mx-18]': 'bleed()'
+    '[class.lg:-mx-18]': 'bleed()',
+    '[class.xl:-mx-32]': 'bleed()'
   }
 })
 export class Media {
