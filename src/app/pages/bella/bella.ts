@@ -7,6 +7,7 @@ import { ProseSubheading } from '../../core/prose-subheading/prose-subheading';
 import { Button } from '../../core/button/button';
 import { RouterLink } from '@angular/router';
 import { OjRender } from '../oj-render/oj-render';
+import { Media } from '../../core/media/media';
 
 @Component({
   selector: 'app-bella',
@@ -19,6 +20,7 @@ import { OjRender } from '../oj-render/oj-render';
     Button,
     RouterLink,
     OjRender,
+    Media,
   ],
   templateUrl: './bella.html',
 })

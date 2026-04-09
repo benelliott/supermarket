@@ -1,4 +1,4 @@
-import { Component, ElementRef, input, viewChild } from '@angular/core';
+import { booleanAttribute, Component, ElementRef, input, viewChild } from '@angular/core';
 import { MatIconButton } from '@angular/material/button';
 import { MatIcon } from '@angular/material/icon';
 
@@ -12,10 +12,11 @@ import { MatIcon } from '@angular/material/icon';
 })
 export class Image {
   public readonly src = input.required<string>();
+  public readonly alt = input<string>();
 
   protected readonly imageEl = viewChild<ElementRef<HTMLImageElement>>('image');
 
-  protected enterFullscreen() {
-    this.imageEl()!.nativeElement.requestFullscreen();
+  protected async enterFullscreen() {
+    await this.imageEl()!.nativeElement.requestFullscreen();
   }
 }
