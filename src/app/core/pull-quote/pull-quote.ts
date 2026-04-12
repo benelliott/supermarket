@@ -5,7 +5,8 @@ import { Component } from '@angular/core';
   imports: [],
   templateUrl: './pull-quote.html',
   host: {
-    class: 'relative text-5xl py-8 text-gray-800 tracking-tight text-right leading-13 font-[Terminal_Grotesque_Open]'
-  }
+    class:
+      'relative text-3xl lg:text-5xl lg:leading-13 py-8 text-gray-800 tracking-tight text-right font-[Terminal_Grotesque_Open]',
+  },
 })
 export class PullQuote {}
