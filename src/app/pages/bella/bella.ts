@@ -9,6 +9,7 @@ import { RouterLink } from '@angular/router';
 import { OjRender } from '../oj-render/oj-render';
 import { Media } from '../../core/media/media';
 import { PullQuote } from '../../core/pull-quote/pull-quote';
+import { Image } from '../../core/image/image';
 
 @Component({
   selector: 'app-bella',
@@ -23,6 +24,7 @@ import { PullQuote } from '../../core/pull-quote/pull-quote';
     OjRender,
     Media,
     PullQuote,
+    Image,
   ],
   templateUrl: './bella.html',
 })
