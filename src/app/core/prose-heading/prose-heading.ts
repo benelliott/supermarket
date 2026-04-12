@@ -5,7 +5,8 @@ import { Component } from '@angular/core';
   imports: [],
   templateUrl: './prose-heading.html',
   host: {
-    class: 'text-2xl font-mono text-gray-700',
-  }
+    class:
+      'text-6xl font-[Terminal_Grotesque_Open] text-gray-700 tracking-tight',
+  },
 })
 export class ProseHeading {}

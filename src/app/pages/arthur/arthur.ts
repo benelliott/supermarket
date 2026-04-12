@@ -8,6 +8,7 @@ import { ProseSubheading } from '../../core/prose-subheading/prose-subheading';
 import { RouterLink } from '@angular/router';
 import { Image } from '../../core/image/image';
 import { Media } from '../../core/media/media';
+import { PullQuote } from '../../core/pull-quote/pull-quote';
 
 @Component({
   selector: 'app-arthur',
@@ -21,7 +22,8 @@ import { Media } from '../../core/media/media';
     RouterLink,
     Image,
     Media,
+    PullQuote,
   ],
-  templateUrl: './arthur.html'
+  templateUrl: './arthur.html',
 })
 export class Arthur {}

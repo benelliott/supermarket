@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   imports: [],
   templateUrl: './prose-subheading.html',
   host: {
-    class: 'text-sm font-mono text-gray-500',
+    class: 'text-sm text-gray-700 border-b-1 border-gray-600',
   },
 })
 export class ProseSubheading {}

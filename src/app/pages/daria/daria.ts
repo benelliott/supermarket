@@ -7,10 +7,21 @@ import { ProseSection } from '../../core/prose-section/prose-section';
 import { RouterLink } from '@angular/router';
 import { Image } from '../../core/image/image';
 import { Media } from '../../core/media/media';
+import { PullQuote } from '../../core/pull-quote/pull-quote';
 
 @Component({
   selector: 'app-daria',
-  imports: [Button, PageWrapper, Prose, ProseHeading, ProseSection, RouterLink, Image, Media],
+  imports: [
+    Button,
+    PageWrapper,
+    Prose,
+    ProseHeading,
+    ProseSection,
+    RouterLink,
+    Image,
+    Media,
+    PullQuote,
+  ],
   templateUrl: './daria.html',
 })
 export class Daria {}

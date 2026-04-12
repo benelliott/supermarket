@@ -6,7 +6,7 @@ import { Header } from '../header/header';
   imports: [Header],
   templateUrl: './page-wrapper.html',
   host: {
-    class: 'block relative'
+    class: 'block relative overflow-hidden'
   }
 })
 export class PageWrapper {}

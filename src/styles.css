@@ -12,6 +12,12 @@
   src: url('../public/fonts/necto-mono.woff2') format('woff2');
 }
 
+@font-face {
+  font-family: 'Terminal Grotesque Open';
+  src: url('../public/fonts/terminal-grotesque.otf') format('opentype');
+}
+
+
 @theme {
   --font-mono: 'Necto Mono', monospace;
 }
